@@ -1,1 +1,24 @@
+#car-img{
+    height: 500px;
+    top: 0;
+}
 
+#nav{
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+#nav-buttons{
+    margin-left: auto;
+    
+}
+
+#nav-button{
+    margin-left: 10px;
+}
+
+#nav-name{
+    color: white;
+    
+}
