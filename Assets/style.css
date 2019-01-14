@@ -78,3 +78,87 @@ body{
     z-index: 1000;
     
 }
+
+@media only screen and (max-width: 600px) {
+    body{
+        background: lightgrey;
+    }
+    
+    .image1{
+        background-image: url(./Images/paracat.jpg);
+        height: 300px;
+        width: 100%;
+        background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .image2{
+        background-image: url(./Images/image2para.jpg);
+        height: 300px;
+        width: 100%;
+        background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    #car-img{
+        height: 500px;
+        top: 0;
+    }
+    
+    #nav{
+        position: absolute;
+        width: 100%;
+        z-index: 1000;
+    }
+    
+    #nav-buttons{
+        margin-left: auto;
+        
+    }
+    
+    #nav-button{
+        margin-left: 10px;
+    }
+    
+    #nav-name{
+        color: white;  
+        
+    }
+    
+    #animate-name:hover{
+        animation-name: hinge;
+        -webkit-animation-name: hinge;
+        -webkit-animation-duration: 2.5s;
+        animation-duration: 2.5s;
+        cursor: wait;
+    }
+    
+    #bio-pic{
+        width: 200px;
+        float: left;
+        margin: 5px;
+    }
+    
+    #bio-body{
+        
+        background: white;
+        width: 75%;
+    
+    }
+    
+    #bio{
+        margin-top: 10px;
+    }
+    
+    #media{
+        width: 75%;
+        margin: 0 auto;
+        z-index: 1000;
+        
+    }
+    
+}
