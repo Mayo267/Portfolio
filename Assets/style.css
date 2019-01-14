@@ -86,7 +86,7 @@ body{
     
     .image1{
         background-image: url(./Images/paracat.jpg);
-        height: 200px;
+        height: 100px;
         width: 100%;
         background-attachment: fixed;
       background-position: center;
@@ -96,7 +96,7 @@ body{
     
     .image2{
         background-image: url(./Images/image2para.jpg);
-        height: 200px;
+        height: 100px;
         width: 100%;
         background-attachment: fixed;
       background-position: center;
@@ -116,12 +116,12 @@ body{
     }
     
     #nav-buttons{
-        margin-left: auto;
+        margin: 0 auto;
         
     }
     
     #nav-button{
-        margin-left: 10px;
+        justify-content: space-around;
     }
     
     #nav-name{
@@ -129,7 +129,10 @@ body{
         
     }
     
-    #animate-name:hover{
+    #animate-name{
+        margin: 0 auto;
+    }
+    #animate-name:active{
         animation-name: hinge;
         -webkit-animation-name: hinge;
         -webkit-animation-duration: 2.5s;
