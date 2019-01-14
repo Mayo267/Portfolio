@@ -91,23 +91,37 @@ body{
 .box1{
     float: left;
     border: 2px solid black;
-    margin: 10px;
+    margin: 0 auto;
+
     
 }
 .box2{
     float: left;
     border: 2px solid black;
-    margin: 10px;
+    margin: 0 auto;
 }
 .box3{
     float: left;
     border: 2px solid black;
-    margin: 10px;
+    margin: 0 auto;
 }
 .box4{
     float: left;
     border: 2px solid black;
-    margin: 10px;
+    margin: 0 auto;
+}
+
+#bio{
+    
+}
+
+.prof-image{
+    display: inline;
+    
+    
+    /* float: left; */
+    /* height: 200;
+    width: 200; */
 }
 /*=======================================MEDIA QUERY=================================*/
 @media only screen and (max-width: 600px) {
