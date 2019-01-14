@@ -2,6 +2,26 @@ body{
     background: lightgrey;
 }
 
+.image1{
+    background-image: url(./Images/paracat.jpg);
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image2{
+    background-image: url(./Images/image2para.jpg);
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #car-img{
     height: 500px;
     top: 0;
@@ -23,8 +43,16 @@ body{
 }
 
 #nav-name{
-    color: white;
+    color: white;  
     
+}
+
+#animate-name:hover{
+    animation-name: hinge;
+    -webkit-animation-name: hinge;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    cursor: wait;
 }
 
 #bio-pic{
@@ -48,4 +76,5 @@ body{
     width: 75%;
     margin: 0 auto;
     z-index: 1000;
+    
 }
