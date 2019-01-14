@@ -4,7 +4,7 @@ body{
 
 .image1{
     background-image: url(./Images/paracat.jpg);
-    height: 600px;
+    height: 400px;
     width: 100%;
     background-attachment: fixed;
   background-position: center;
@@ -14,7 +14,7 @@ body{
 
 .image2{
     background-image: url(./Images/image2para.jpg);
-    height: 600px;
+    height: 400px;
     width: 100%;
     background-attachment: fixed;
   background-position: center;
@@ -35,6 +35,7 @@ body{
 
 #nav-buttons{
     margin-left: auto;
+    padding-right: 25px;
     
 }
 
@@ -78,7 +79,37 @@ body{
     z-index: 1000;
     
 }
+.boxes{
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
 
+    
+
+}
+.box1{
+    float: left;
+    border: 2px solid black;
+    margin: 10px;
+    
+}
+.box2{
+    float: left;
+    border: 2px solid black;
+    margin: 10px;
+}
+.box3{
+    float: left;
+    border: 2px solid black;
+    margin: 10px;
+}
+.box4{
+    float: left;
+    border: 2px solid black;
+    margin: 10px;
+}
+/*=======================================MEDIA QUERY=================================*/
 @media only screen and (max-width: 600px) {
     body{
         background: lightgrey;
@@ -86,7 +117,7 @@ body{
     
     .image1{
         background-image: url(./Images/paracat.jpg);
-        height: 100px;
+        height: 200px;
         width: 100%;
         background-attachment: fixed;
       background-position: center;
@@ -96,7 +127,7 @@ body{
     
     .image2{
         background-image: url(./Images/image2para.jpg);
-        height: 100px;
+        height: 200px;
         width: 100%;
         background-attachment: fixed;
       background-position: center;
@@ -117,6 +148,9 @@ body{
     
     #nav-buttons{
         margin: 0 auto;
+        justify-content: space-around;
+       padding: 0px;
+        
         
     }
     
@@ -130,6 +164,7 @@ body{
     }
     
     #animate-name{
+        justify-content: space-around;
         margin: 0 auto;
     }
     #animate-name:active{
