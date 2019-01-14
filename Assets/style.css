@@ -120,6 +120,14 @@ h3{
     /* height: 200;
     width: 200; */
 }
+
+#bio{
+    font-size: 1.15em;
+}
+
+#submit{
+    margin-bottom: 40px;
+}
 /*=======================================MEDIA QUERY=================================*/
 @media only screen and (max-width: 600px) {
     body{
