@@ -30,11 +30,12 @@
                 <button id="nav-button" class="btn btn-outline-success" type="button">Home</button>
                 <button id="nav-button" class="btn btn-outline-success" type="button">About</button>
                 <button id="nav-button" class="btn btn-outline-success" type="button">Portfolio</button>
+                <button id="nav-button" class="btn btn-outline-success" type="button">Contact</button>
             </ul>
         </nav>
 
         <!--Carousel needs to have images of projects worked on!!!-->
-
+<!-- <div class="carousel-parallax"> -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 
                 <ol class="carousel-indicators">
@@ -76,25 +77,48 @@
                 
               </div>
 
-              
+<!-- </div> -->
 
             <!--About me and other stuff!-->
               <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
                     <h3 style="text-align:center;">About</h3>
-                    <img src="./Assets/Images/placeholder.png" alt="Me" class="prof-image">
+                    <img id="prof-image" src="./Assets/Images/placeholder.png" alt="Me" class="prof-image">
                     <p id="bio">Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
                   </div>
 
                   <div class="image1"></div>
 
                   <!--Display ability to look at individual projects worked on!!-->
-                  <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+                  <div id="port-box" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
                         <h3 style="text-align:center;">Portfolio</h3>
                         <!-- <div class="boxes"> -->
-                            <div class="box1">box 1</div>
-                            <div class="box2">box 2</div>
-                            <div class="box3">box 3</div>
-                            <div class="box4">box 4</div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="./Assets/Images/placeholder.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Project 1</p>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                    <img src="./Assets/Images/placeholder.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Project 2</p>
+                                    </div>
+                                </div>
+
+                                <div class="card" style="width: 18rem;">
+                                        <img src="./Assets/Images/placeholder.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Project 3</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card" style="width: 18rem;">
+                                            <img src="./Assets/Images/placeholder.png" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <p class="card-text">Project 4</p>
+                                            </div>
+                                        </div>
                         <!-- </div> -->
                         
                       </div>
@@ -103,6 +127,25 @@
                       <!-- Contact page!-->
                       <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
                             <h3 style="text-align:center;">Contact</h3>
+                            <form>
+                                    <div id="names-contact" class="row">
+                                      <div class="col">
+                                        <input type="text" class="form-control" placeholder="First name">
+                                      </div>
+                                      <div class="col">
+                                        <input type="text" class="form-control" placeholder="Last name">
+                                      </div>
+                                    </div>
+                                    <div id="names-contact" class="form-group">
+                                            <label for="exampleFormControlInput1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                          </div>
+                                          <div class="form-group">
+                                                <label for="exampleFormControlTextarea1">Message</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                              </div>
+                                              <button type="button" class="btn btn-outline-success">Success</button>
+                                  </form>
                             
                           </div>
       <!--JavaScript at end of body for optimized loading-->
