@@ -87,7 +87,7 @@ body{
     .image1{
         background-image: url(./Images/paracat.jpg);
         height: 300px;
-        width: 100%;
+        width: 300px;
         background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -97,7 +97,7 @@ body{
     .image2{
         background-image: url(./Images/image2para.jpg);
         height: 300px;
-        width: 100%;
+        width: 300px;
         background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
