@@ -44,6 +44,7 @@ body{
 #nav-buttons{
     margin-left: auto;
     padding-right: 25px;
+    padding-top: 10px;
     
 }
 
@@ -97,6 +98,10 @@ body{
 
 .card-text{
     text-align: center;
+}
+
+#card-img{
+    height: 200px;
 }
 
 #port-box{
@@ -240,5 +245,7 @@ h3{
     .card-text{
         text-align: center;
     }
+
+   
     
 }
