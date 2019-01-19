@@ -133,6 +133,23 @@ h3{
 #submit{
     margin-bottom: 40px;
 }
+
+#train:hover{
+    cursor: pointer;
+}
+#project:hover{
+    cursor: pointer;
+}
+#giphy:hover{
+    cursor: pointer;
+}
+#crystal{
+    cursor: pointer;
+}
+#trivia{
+    cursor: pointer;
+}
+
 /*=======================================MEDIA QUERY=================================*/
 @media only screen and (max-width: 600px) {
     body{
