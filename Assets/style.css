@@ -15,9 +15,9 @@ body{
     height: 400px;
     width: 100%;
     background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .image2{
@@ -25,9 +25,9 @@ body{
     height: 400px;
     width: 100%;
     background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #car-img{
@@ -93,7 +93,7 @@ body{
 .card{
     display: inline-block;
     margin-left: 25px;
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .card-text{
@@ -144,9 +144,9 @@ h3{
         height: 200px;
         width: 100%;
         background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .image2{
@@ -154,9 +154,9 @@ h3{
         height: 200px;
         width: 100%;
         background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     #car-img{
@@ -173,7 +173,7 @@ h3{
     #nav-buttons{
         margin: 0 auto;
         justify-content: space-around;
-       padding: 0px;
+        padding: 0px;
         
         
     }
@@ -229,7 +229,7 @@ h3{
         position: relative;
         
         
-       
+
     }
 
     .card-body{
@@ -239,13 +239,11 @@ h3{
 
     #card-img{
         
-       
     }
     
     .card-text{
         text-align: center;
     }
 
-   
     
 }
