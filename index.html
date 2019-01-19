@@ -22,9 +22,9 @@
     </head>
 
 <body>
-        <nav id="nav" class="navbar navbar-dark bg-dark">
+        <nav id="nav" class="navbar sticky-top navbar-dark bg-dark">
             <div id="animate-name">
-            <h1 id="nav-name" >Andrew Mayo</h1>
+            <h1 id="nav-name">Andrew Mayo</h1>
             </div>
             <ul id="nav-buttons">
                 <!-- <button id="nav-button1" class="btn btn-outline-success" type="button">Home</button> -->
@@ -135,13 +135,13 @@
                     <!-- Contact page!-->
                     <div id="contact-box" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
                             <h3 style="text-align:center;">Contact</h3>
-                            <form>
+                            <form action= "mailto:amayo0925@gmail.com" method="POST" enctype="text/plain">
                                     <div id="names-contact" class="row">
                                         <div class="col">
-                                        <input type="text" class="form-control" placeholder="First name">
+                                        <input type="text" id="firstName" class="form-control" placeholder="First name">
                                     </div>
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="Last name">
+                                        <input type="text" id="lastName" class="form-control" placeholder="Last name">
                                     </div>
                                     </div>
                                     <div id="names-contact" class="form-group">
@@ -152,7 +152,7 @@
                                         <label for="exampleFormControlTextarea1">Message</label>
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                     </div>
-                                        <button id="submit" type="button" class="btn btn-outline-success">Submit</button>
+                                        <button id="submit" value="Email This Form" type="button" class="btn btn-outline-success">Submit</button>
                                         <button id="back-top" type="button" class="btn btn-primary btn-lg btn-block">Back to the top!</button>
                             </form>
                             

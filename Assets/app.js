@@ -15,7 +15,7 @@ $( document ).ready(function() {
     $("#nav-button4").click(function() {
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#contact-box").offset().top
-        }, 2000);
+        }, 1500);
     });
     //Back to top button
     $("#back-top").click(function() {
