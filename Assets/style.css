@@ -11,7 +11,7 @@ body{
     background-size: cover;
 } */
 .image1{
-    background-image: url(./Images/paracat.jpg);
+    background-image: url(./Images/coding_portfolio.jpeg);
     height: 400px;
     width: 100%;
     background-attachment: fixed;
@@ -21,7 +21,7 @@ body{
 }
 
 .image2{
-    background-image: url(./Images/image2para.jpg);
+    background-image: url(./Images/coding_portfolio.jpeg);
     height: 400px;
     width: 100%;
     background-attachment: fixed;
@@ -157,7 +157,7 @@ h3{
     }
     
     .image1{
-        background-image: url(./Images/paracat.jpg);
+        background-image: url(./Images/coding_portfolio.jpeg);
         height: 200px;
         width: 100%;
         background-attachment: fixed;
@@ -167,7 +167,7 @@ h3{
     }
     
     .image2{
-        background-image: url(./Images/image2para.jpg);
+        background-image: url(./Images/coding_portfolio.jpeg);
         height: 200px;
         width: 100%;
         background-attachment: fixed;
