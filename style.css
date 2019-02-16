@@ -1,0 +1,320 @@
+body{
+    background: lightgrey;
+}
+
+#code-img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+#code-img:hover{
+    animation-name: shake;
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    cursor: pointer;
+}
+
+#caption{
+    background: lightgray;
+    opacity: .7;
+    color: black;
+    border-radius: 25px;
+}
+.code-imgs{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+/* .carousel-parallax{
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.image1{
+    background-image: url(./Images/coding_portfolio.jpeg);
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image2{
+    background-image: url(./Images/helloworld.gif);
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#car-img{
+    height: 875px;
+    top: 0;
+}
+
+#nav{
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+#nav-buttons{
+    margin-left: auto;
+    padding-right: 25px;
+    padding-top: 10px;
+    
+}
+
+#nav-button{
+    margin-left: 10px;
+}
+
+#nav-name{
+    color: white;  
+    
+}
+
+#animate-name:hover{
+    animation-name: hinge;
+    -webkit-animation-name: hinge;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    cursor: wait;
+}
+
+#bio-pic{
+    width: 200px;
+    float: left;
+    margin: 5px;
+}
+
+#bio-body{
+    
+    background: white;
+    width: 75%;
+
+}
+
+#bio{
+    margin-top: 10px;
+}
+
+#media{
+    width: 75%;
+    margin: 0 auto;
+    z-index: 1000;
+    
+}
+
+
+.card{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+#card-img{
+    height: 200px;
+}
+
+#port-box{
+    
+}
+
+h3{
+    margin-bottom: 40px;
+}
+
+#names-contact{
+    margin-bottom: 20px;
+}
+.prof-image{
+    float: left;
+    width: 150px;
+    margin-right: 15px;
+    
+
+}
+
+#prof-image{
+    height: 200px;
+    float: left;
+    margin-right: 25px;
+    border: 2px solid black;
+}
+
+#bio{
+    font-size: 1.15em;
+    
+}
+
+/* .bio-type{
+    float: right;
+} */
+
+#submit{
+    margin-bottom: 40px;
+}
+
+#train:hover{
+    cursor: pointer;
+}
+#project:hover{
+    cursor: pointer;
+}
+#giphy:hover{
+    cursor: pointer;
+}
+#crystal{
+    cursor: pointer;
+}
+#trivia{
+    cursor: pointer;
+}
+
+/*=======================================MEDIA QUERY=================================*/
+@media only screen and (max-width: 600px) {
+    body{
+        background: lightgrey;
+    }
+    
+    .image1{
+        background-image: url(./Images/coding_portfolio.jpeg);
+        height: 200px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .image2{
+        background-image: url(./Images/coding_portfolio.jpeg);
+        height: 200px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #car-img{
+        height: 450px;
+        top: 0;
+    }
+    
+    #nav{
+        position: absolute;
+        width: 100%;
+        z-index: 1000;
+    }
+    
+    #nav-buttons{
+        margin: 0 auto;
+        justify-content: space-around;
+        padding: 0px;
+        
+        
+    }
+    
+    #nav-button{
+        justify-content: space-around;
+    }
+    
+    #nav-name{
+        color: white;  
+        
+    }
+    
+    #animate-name{
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    #animate-name:active{
+        animation-name: hinge;
+        -webkit-animation-name: hinge;
+        -webkit-animation-duration: 2.5s;
+        animation-duration: 2.5s;
+        cursor: wait;
+    }
+    
+    #bio-pic{
+        width: 200px;
+        float: left;
+        margin: 5px;
+    }
+    
+    #bio-body{
+        
+        background: white;
+        width: 75%;
+    
+    }
+    
+    #bio{
+        margin-top: 10px;
+    }
+    
+    #media{
+        width: 75%;
+        margin: 0 auto;
+        z-index: 1000;
+        
+    }
+
+    .card{
+        display: inline;
+        margin: 0 auto;
+        position: relative;
+        
+        
+
+    }
+
+    .card-body{
+        
+        
+    }
+
+    #card-img{
+        
+    }
+    
+    .card-text{
+        text-align: center;
+    }
+
+    .code-imgs{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 45px;
+    }
+
+    #code-img{
+        height: 50px;
+        width: 50px;
+        text-align: center;
+    }
+    #code-img:hover{
+        animation-name: shake;
+        -webkit-animation-name: shake;
+        -webkit-animation-duration: 2.5s;
+        animation-duration: 2.5s;
+        cursor: pointer;
+    }
+}
